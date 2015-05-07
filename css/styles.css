@@ -1,0 +1,88 @@
+@font-face {
+	font-family:'Raleway Thin';
+	src: 
+		url('fonts/raleway_thin-webfont.svg'),
+		url('fonts/raleway_thin-webfont.ttf'),
+		url('fonts/raleway_thin-webfont.woff'),
+		url('fonts/raleway_thin-webfont.eot');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+		margin: auto;
+		position:relative;
+		height:480px;
+		width:640px;
+}
+
+#tabula-rasa {
+	position: absolute;
+	width:640px;
+	height:480px;
+	top: 0;
+	left: 0;
+	right:0;
+	margin:auto;
+	border:1px solid #eee;
+}
+
+#text {
+	width:640px;
+	margin:auto;
+	font-family: Helvetica, sans-serif;
+}
+
+
+
+#text h1 {
+	text-align:center;
+	letter-spacing:2px;
+	font-family:'Raleway Thin', Helvetica, sans-serif;
+	font-size:3em;
+
+}
+
+#text h2 {
+	color:#8AE6E6;
+	border-left:5px solid;
+	padding-left:10px;
+	margin: 20px auto 10px;
+
+}
+
+#text .header {
+	border-bottom:1px solid #eee;
+}
+
+.box-container {
+	width:100px;
+	display:inline-block;
+	margin-right:2px;
+	text-align:center;
+	color:#404040;
+}
+
+.box {
+	width:60px;
+	height:60px;
+	border:2px solid #7F7F7F;
+	border-radius:10px;
+	margin:auto;
+}
+
+.box i, span {
+	font-size:2em;
+	display:block;
+	padding:12px;
+	margin:auto;
+	color:#7F7F7F;
+}
+
+#warning p {
+	color:#7F7F7F;
+	font-size:0.9em;
+}
